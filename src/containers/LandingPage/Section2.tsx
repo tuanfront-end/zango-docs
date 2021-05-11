@@ -2,7 +2,7 @@ import React from "react";
 
 const Section2 = () => {
   return (
-    <section className="py-20 bg-white max-w-6xl mx-auto">
+    <section id="features" className="py-20 bg-white max-w-6xl mx-auto">
       <div className="container max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold tracking-tight text-center">
           Our Features
@@ -37,11 +37,11 @@ const Section2 = () => {
               </svg>
             </div>
             <h4 className="text-xl font-medium text-gray-700">
-              Certifications
+              React Template
             </h4>
             <p className="text-base text-center text-gray-500">
-              Each of our plan will provide you and your team with
-              certifications.
+              Built with React, Redux toolkit, Typescript, and the latest
+              Tailwindcss, Headless Ui
             </p>
           </div>
 
@@ -49,23 +49,25 @@ const Section2 = () => {
             <div className="p-3 text-white bg-blue-700 rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-8 h-8"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
+                className="h-6 w-6"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
               >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M18 8a3 3 0 0 1 0 6"></path>
-                <path d="M10 8v11a1 1 0 0 1 -1 1h-1a1 1 0 0 1 -1 -1v-5"></path>
-                <path d="M12 8h0l4.524 -3.77a0.9 .9 0 0 1 1.476 .692v12.156a0.9 .9 0 0 1 -1.476 .692l-4.524 -3.77h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h8"></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"
+                />
               </svg>
             </div>
-            <h4 className="text-xl font-medium text-gray-700">Notifications</h4>
+            <h4 className="text-xl font-medium text-gray-700">
+              100% responsive
+            </h4>
             <p className="text-base text-center text-gray-500">
-              Send out notifications to all your customers to keep them engaged.
+              Works on all devices and touch sensors. High quality images, fonts
+              & text.
             </p>
           </div>
 
@@ -73,28 +75,17 @@ const Section2 = () => {
             <div className="p-3 text-white bg-blue-700 rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-8 h-8"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                className="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
               >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <polyline
-                  points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3"
-                  className=""
-                ></polyline>
-                <line x1="12" y1="12" x2="20" y2="7.5"></line>
-                <line x1="12" y1="12" x2="12" y2="21"></line>
-                <line x1="12" y1="12" x2="4" y2="7.5" className=""></line>
-                <line x1="16" y1="5.25" x2="8" y2="9.75" className=""></line>
+                <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
               </svg>
             </div>
-            <h4 className="text-xl font-medium text-gray-700">Bundles</h4>
+            <h4 className="text-xl font-medium text-gray-700">Dark mode</h4>
             <p className="text-base text-center text-gray-500">
-              High-quality bundles of awesome tools to help you out.
+              Darkmode modern. Helps you quickly turn the theme mode to dark at
+              night time.
             </p>
           </div>
 
@@ -117,11 +108,11 @@ const Section2 = () => {
               </svg>
             </div>
             <h4 className="text-xl font-medium text-gray-700">
-              Developer Tools
+              Customizing the theme
             </h4>
             <p className="text-base text-center text-gray-500">
-              Developer tools to help grow your application and keep it
-              up-to-date.
+              Completely customize the template and whole Taiwindcss, quickly
+              modifying its config variables.
             </p>
           </div>
 
@@ -145,11 +136,11 @@ const Section2 = () => {
               </svg>
             </div>
             <h4 className="text-xl font-medium text-gray-700">
-              Building Blocks
+              Free updates and support
             </h4>
             <p className="text-base text-center text-gray-500">
-              The right kind of building blocks to take your company to the next
-              level.
+              I work closely with my customers to provide a high standard of
+              support and quick bug fixes.
             </p>
           </div>
 
@@ -172,10 +163,11 @@ const Section2 = () => {
                 <path d="M5 5h14a2 2 0 0 1 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-3a2 2 0 0 0 0 -4v-3a2 2 0 0 1 2 -2"></path>
               </svg>
             </div>
-            <h4 className="text-xl font-medium text-gray-700">Coupons</h4>
+            <h4 className="text-xl font-medium text-gray-700">Data & Logic</h4>
             <p className="text-base text-center text-gray-500">
-              Coupons system to provide special offers and discounts for your
-              app.
+              Full JSON data sample files for pages and components. Almost
+              actions are fully logic processed (add to cart, update cart,
+              wishlist ...)
             </p>
           </div>
         </div>

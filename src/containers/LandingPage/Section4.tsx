@@ -15,19 +15,19 @@ const Section4 = () => {
             How does it work?
           </h3>
           <p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-            Our platform works with your content to provides insights and
-            metrics on how you can grow your business and scale your
-            infastructure.
+            Zango Built with React, Redux toolkit, Typescript, and the latest
+            Tailwindcss, Headless Ui modern. Perfect starting point for your
+            next e-commerce site.
           </p>
         </div>
         <div className="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3 rounded-3xl">
           <h3 className="text-lg font-bold text-blue-700 sm:text-xl md:text-2xl">
-            Do you offer team pricing?
+            How do I make changes dyamic data?
           </h3>
           <p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-            Yes, we do! Team pricing is available for any plan. You can take
-            advantage of 30% off for signing up for team pricing of 10 users or
-            more.
+            Full JSON data sample files for pages and components, easily change
+            on data folder. Almost actions are fully logic processed (add to
+            cart, update cart, wishlist, shop single router ...)
           </p>
         </div>
         <div className="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3 rounded-3xl">
@@ -36,18 +36,16 @@ const Section4 = () => {
           </h3>
           <p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
             You can easily change your site settings inside of your site
-            dashboard by clicking the top right menu and clicking the settings
-            button.
+            tailwind config file, demo data folder, react typescript code
+            (*.tsx, *.ts).
           </p>
         </div>
         <div className="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3 rounded-3xl">
           <h3 className="text-lg font-bold text-blue-700 sm:text-xl md:text-2xl">
-            How do I add a custom domain?
+            Free updates and support?
           </h3>
           <p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-            You can easily change your site settings inside of your site
-            dashboard by clicking the top right menu and clicking the settings
-            button.
+            Yes, we do! Free updates and support is lifetime. Cherry.
           </p>
         </div>
       </div>

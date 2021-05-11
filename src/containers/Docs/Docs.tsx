@@ -101,6 +101,14 @@ const Docs = () => {
                   </li>
                 );
               })}
+              <li>
+                <Link
+                  className="px-3 py-2 transition-colors duration-200 relative block hover:text-gray-900 text-gray-500"
+                  to="/landing"
+                >
+                  <span className="relative">Landing page</span>
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>

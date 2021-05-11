@@ -20,7 +20,7 @@ const Section3 = () => {
               href="#_"
               className="flex items-center justify-center px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-700 border border-transparent shadow hover:bg-blue-600 focus:outline-none focus:border-blue-800 focus:shadow-blue-NaN md:py-4 md:text-lg md:px-10 rounded-full"
             >
-              View Case Studies
+              Purchase now
             </a>
           </div>
           <div className="w-full lg:w-1/2">
@@ -71,7 +71,7 @@ const Section3 = () => {
                 <h3 className="pl-12 mt-3 text-sm font-medium leading-5 text-gray-800 truncate sm:text-base lg:text-sm lg:text-base">
                   John Doe
                   <span className="mt-1 text-sm leading-5 text-gray-500 truncate">
-                    - CEO SomeCompany
+                    - Dev SomeCompany
                   </span>
                 </h3>
                 <p className="mt-1 text-sm leading-5 text-gray-500 truncate"></p>
@@ -99,9 +99,9 @@ const Section3 = () => {
                 </div>
 
                 <h3 className="pl-12 mt-3 text-sm font-medium leading-5 text-gray-800 truncate sm:text-base lg:text-sm lg:text-base">
-                  John Smith
+                  John James
                   <span className="mt-1 text-sm leading-5 text-gray-500 truncate">
-                    - CEO SomeCompany
+                    - Manager SomeCompany
                   </span>
                 </h3>
                 <p className="mt-1 text-sm leading-5 text-gray-500 truncate"></p>
